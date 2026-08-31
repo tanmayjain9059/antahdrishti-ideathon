@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+
+# YOLO and datasets
+runs/
+datasets/
+*.zip
+*.pt
+*.onnx
+
+# System files
+Thumbs.db
+.DS_Store
+ANTAHDRISHTI_BACKEND/uploads/
+ANTAHDRISHTI_BACKEND/results/
+ANTAHDRISHTI_BACKEND/reports/
+ANTAHDRISHTI_BACKEND/__pycache__/

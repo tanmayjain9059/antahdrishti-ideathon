@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>ANTAHDRISHTI Inspection Report</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+    color:#222;
+}
+
+h1{
+    text-align:center;
+    color:#0b5ed7;
+}
+
+h2{
+    border-bottom:2px solid #ddd;
+    padding-bottom:5px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid #ccc;
+}
+
+th,td{
+    padding:10px;
+}
+
+.score{
+    font-size:32px;
+    font-weight:bold;
+    color:green;
+}
+
+.footer{
+    margin-top:40px;
+    text-align:center;
+    color:gray;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>ANTAHDRISHTI</h1>
+
+<p style="text-align:center;">
+AI Infrastructure Inspection Report
+</p>
+
+<hr>
+
+<h2>Inspection Details</h2>
+
+<p><b>Inspection ID:</b> {{inspection_id}}</p>
+
+<p><b>Date:</b> {{date}}</p>
+
+<p><b>Location:</b> {{location}}</p>
+
+<h2>Detected Defects</h2>
+
+<table>
+
+<tr>
+
+<th>Defect</th>
+
+<th>Confidence</th>
+
+</tr>
+
+{{defect_rows}}
+
+</table>
+
+<h2>Infrastructure Health Score</h2>
+
+<p class="score">
+
+{{health_score}} / 100
+
+</p>
+
+<h2>Recommendations</h2>
+
+<p>
+
+{{recommendations}}
+
+</p>
+
+<div class="footer">
+
+Generated automatically by ANTAHDRISHTI AI
+
+</div>
+
+</body>
+
+</html>
