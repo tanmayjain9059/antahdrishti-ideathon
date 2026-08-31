@@ -26,8 +26,3 @@ Bridge image
 
 ANTAHDRISHTI creates a digital inspection timeline for every bridge. It compares current and previous inspections to identify whether visible damage is increasing over time.
 
-## Team
-
-- M. Shiva Satwik Reddy
-- V. Ram Charan Sai
-- K. Lokesh Yadav
